@@ -1,0 +1,65 @@
+.mudacor{
+    width: 600px;
+    height: 600px;
+}
+
+@media screen and (max-width: 1920px) {
+    .mudacor {
+        backgroUnd-color: yellow;
+    }
+    
+    .mudacor h1:after{
+        content: "Amarelo";
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .mudacor {
+        backgroUnd-color: purple;
+    }
+    
+    .mudacor h1:after{
+        content: "Roxo";
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .mudacor {
+        backgroUnd-color: red;
+    }
+    
+    .mudacor h1:after{
+        content: "Vermelho";
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mudacor {
+        backgroUnd-color: magenta;
+    }
+    
+    .mudacor h1:after{
+        content: "Magenta";
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mudacor {
+        backgroUnd-color: orange;
+    }
+    
+    .mudacor h1:after{
+        content: "Laranja";
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .mudacor {
+        backgroUnd-color: gray;
+    }
+    
+    .mudacor h1:after{
+        content: "Cinza";
+    }
+}
+
