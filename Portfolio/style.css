@@ -1,0 +1,402 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+@import url('http://fonts.cdnfonts.com/css/modern-antiqua-2');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300;1,400;1,500&display=swap');
+
+
+* {
+    font-family: 'Modern Antiqua', sans-serif;                                 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+
+html {
+    font-size: 60.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url('imagens/antique-big.webp');
+    padding-left: 30rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: url('imagens/mapa.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding: 8rem 2rem;
+    width: 30rem;
+    text-align: left;
+}
+
+header .logo {
+    font-family: 'Harry Potter', sans-serif;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    /* Henrique */
+}
+
+header .logo span {
+    font-family: 'Harry Potter', sans-serif;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    /* Lucas */
+}
+
+
+header .navbar a {
+    font-family: 'Harry Potter', sans-serif;
+    display: block;
+    font-size: 3rem;
+    padding: 0.9rem;
+    color: #fff
+        /* Itens do nav */
+}
+
+header .navbar a:hover {
+    letter-spacing: .2rem;
+    color: hsl(0, 0%, 0%);
+}
+
+header .follow a {
+    font-size: 2.5rem;
+    color: white;
+    margin: 0 .7rem;
+}
+
+header .follow a:hover {
+    color: rgb(235, 235, 235);
+}
+
+section {
+    padding: 1rem 5%;
+    min-height: 100vh;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.home .image {
+    flex: 1 10rem;
+}
+
+.home .image img {
+    width: 100%;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+}
+
+.home .content .hi {
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    /* Meu nome é*/
+    line-height: 4.5rem;
+}
+
+.home .content .info {
+    font-size: 4rem;
+    color: black;
+    /* esse é o */
+}
+
+.home .content .info span {
+    font-size: 2rem;
+    color: #ffffff;
+    line-height: .5rem;
+    font-size: 4rem;
+    font-family: 'Harry Potter', sans-serif;
+    text-shadow: .1rem .1rem 2px rgba(0, 0, 0, 0.438);
+    /* Portfólio do Maroto */
+}
+
+.home .content h3 span {
+    text-shadow: .1rem .1rem 2px rgba(0, 0, 0, 0.438);
+    font-size: 6rem;
+    color: #ffffff;
+    /*Lucas Henrique*/
+    font-family: 'harry potter', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Harry Potter', sans-serif;
+    font-weight: 500px;
+    font-size: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #ffffff;
+    /*Sobre Mim*/
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 200px;
+    height: 2.5px;
+    background: #ffffff;
+    transform: translateX(-50%);
+    /*traço Subtítulo*/
+}
+
+.about .row-1 .image img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 0.9rem;
+    box-shadow: .2rem .2rem 2px #000000;
+    /*sombra foto*/
+}
+
+.about .row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about .row-1 .image {
+    flex: 1 1 25rem;
+}
+
+.about .row-1 .content {
+    flex: 1 1 50rem;
+
+}
+
+.about .row-1 .content .text {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 4.0rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.about .row-1 .content P {
+    font-family: 'Modern Antiqua', sans-serif;                                              
+    text-align: justify;
+    color: #000000;
+    padding: .5rem 0;
+    font-size: 2rem;
+    /* Sobre Mim */
+}
+
+.about .row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.about .row-2 .skills {
+    flex: 1 1 40rem;
+}
+
+.about .row-2 .skills .progress {
+    padding: 1rem 0;
+
+}
+
+.about .row-2 .skills .progress h3 {
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 0;
+    font-size: 2rem;
+    color: #ffffff;
+    /* texto das habilidades */
+}
+
+.about .row-2 .skills .progress .bar {
+    width: 100%;
+    background: #ffffffe3;
+    overflow: hidden;
+    height: 1rem;
+    border-radius: 50rem;
+}
+
+.about .row-2 .skills .progress .bar span {
+    display: block;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    border-radius: 50rem;
+}
+
+.about .row-2 .skills .progress:nth-child(1) .bar span {
+    width: 40%;
+}
+
+.about .row-2 .skills .progress:nth-child(2) .bar span {
+    width: 25%;
+}
+
+.about .row-2 .skills .progress:nth-child(3) .bar span {
+    width: 50%;
+}
+
+.about .row-2 .skills .progress:nth-child(4) .bar span {
+    width: 48%;
+}
+
+.about .row-2 .skills .progress:nth-child(5) .bar span {
+    width: 35%;
+}
+
+.btn {
+    display: flex;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem 13rem;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: 15px;
+    box-shadow: .1rem .2rem 3px #0c0702;
+    /*btn LP2*/
+}
+
+.btn:hover {
+    background-color: gray;
+    /*btn LP2*/
+}
+
+.btn2 {
+    display: flex;
+    margin-top: 2rem;
+    padding: 2rem 13rem;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: 15px;
+    box-shadow: .1rem .2rem 3px #0c0702;
+    /*btn PWEB*/
+}
+
+.btn2:hover {
+    background-color: gray;
+    /*btn PWEB*/
+}
+
+.contact .icons-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.contact .icons-container .icons {
+    flex: 1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+}
+
+.contact .icons-container .icons h3 {
+    color: white;
+    font-size: 2rem;
+    padding: .5rem 0;
+    padding-top: 1rem;
+}
+
+.contact .icons-container .icons p {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 2.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: black;
+}
+
+#btnTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    height: 50px;
+    width: 50px;
+    background: #ffffff;
+    border-radius: 50rem;
+    display: block;
+}
+
+#btnTopo:hover {
+    cursor: pointer;
+}
+
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+
+    }
+
+    body {
+        padding: 0;
+    }
+
+    #menu-bars {
+        display: initial;
+    }
+
+    header {
+        left: -120%;
+    }
+
+    header.active {
+        left: 0%;
+    }
+
+    .cursor-1,
+    .cursor-2 {
+        display: none;
+    }
+
+    .about .row-1 {
+        width: 50%;
+
+    }
+
+
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+
+    }
+
+    header {
+        left: 100%;
+    }
+
+    header.active {
+        left: 0%;
+    }
+}
