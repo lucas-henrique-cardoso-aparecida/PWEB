@@ -14,8 +14,7 @@
 - #### Harry Potter
 
 ## Paleta de Cores
-![](C:\Users\lucas\Downloads\PWEB-main\PWEB-main\Portfolio\imgs\Cores.png)
-
+![]([C:\Users\lucas\Downloads\PWEB-main\PWEB-main\Portfolio\imgs\Cores.png](https://github.com/lucas-henrique-cardoso-aparecida/PWEB/blob/main/Portfolio/imagens/Cores.png))
 ## Linguagens Utilizadas:
 
 - [x] ##### HTML
